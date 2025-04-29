@@ -15,6 +15,9 @@ function Header() {
             <Link to="/blog" className="font-medium hover:text-yellow-200 transition duration-300 ease-in-out">
               Blog
             </Link>
+            <Link to="/products" className="font-medium hover:text-yellow-200 transition duration-300 ease-in-out">
+  Товары
+</Link>
           </nav>
         </div>
       </div>

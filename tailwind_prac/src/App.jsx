@@ -2,10 +2,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import { Button, Text, Input } from './components/ui';
+import Button from './components/ui/Button';
 import About from './pages/About';
 import Blog from './pages/Blog';
-
+import Products from './pages/Products';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/products" element={<Products />} />
           </Routes>
         </main>
         <Footer />
